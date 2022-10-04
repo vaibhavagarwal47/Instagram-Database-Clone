@@ -1,6 +1,6 @@
 -- Some basic queries regarding the database
 
--- 1) Finding 5 oldest users
+-- 1) Query to find the first 5 users
 SELECT * FROM users
 ORDER BY created_at LIMIT 5;
 
